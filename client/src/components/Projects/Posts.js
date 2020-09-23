@@ -1,26 +1,20 @@
 import React, { Component } from "react";
 import "./Post.css";
-import managePic from "../../images/dash.jpg"
-import membershipPic from "../../images/membershipSite.jpg"
+import image1 from "../../images/emaily.png"
+import image2 from "../../images/portofolio.png"
 const postInfo = [
   {
-    image: managePic,
-    title: "Laboratory Management System",
+    image: image1,
+    title: "React feedback collection app",
     intro:
-      " Designed built & mantained a the lab managment system for FOI Laboratories",
-    link: "google.com",
+      "MERN stack project, which allows users to send group email and auto-collect feedback, demo video coming",
+    link: "https://github.com/Jiang-zzz/Email_app",
   },
   {
-    image: membershipPic,
+    image:image2,
     title: "React Portofilo Website",
-    intro: " Using nodejs and a the lab managment system for FOI Laboratories ",
-    link: "google.com",
-  },
-  {
-    image: membershipPic,
-    title: "Portofilo Website",
-    intro: " Modulized guide for online courses with step by step intructions ",
-    link: "google.com",
+    intro: " Reactjs + Express project deployed on heroku. Using react-hook-form and sendgrid to handle email",
+    link: "https://github.com/Jiang-zzz",
   },
 ];
 class Posts extends Component {
@@ -32,7 +26,7 @@ class Posts extends Component {
           <div className="post-preview">
             <h6 className="post-title">{title}</h6>
             <p className="post-intro">{intro}</p>
-            <a href={link}>Read More</a>
+            <a href={link} target="_blank" rel="noopener noreferrer">Read More</a>
           </div>
         </div>
       );

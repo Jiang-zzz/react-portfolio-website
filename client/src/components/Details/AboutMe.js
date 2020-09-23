@@ -25,17 +25,19 @@ class AboutMe extends Component {
             rel="noopener noreferrer"
             href={link}
           >{`${platform}: @${id}`}</a>
-
         </div>
       );
     });
   }
   render() {
     return (
-      <div style={{textAlign:"center"}}>
+      <div style={{ textAlign: "center" }}>
         <h4>More about me</h4>
 
-        <p>I'm a Master of IT graduate from the University of Melbourne</p>
+        <p>
+          I'm a Master of IT graduate from the University of Melbourne. Keen to
+          try new things and explore more career options
+        </p>
         <p>
           I enjoy web development and occasionally participate in Kaggle
           competition
