@@ -5,9 +5,8 @@ import ContactButton from "./ContactButton";
 const NavBar = () => {
   return (
     <div className="nav-wrapper">
-      <a href="/">
-        <BrowserDots />
-      </a>
+      <BrowserDots />
+
       <ContactButton />
     </div>
   );
