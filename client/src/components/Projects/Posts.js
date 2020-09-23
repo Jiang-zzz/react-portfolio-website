@@ -14,7 +14,7 @@ const postInfo = [
     image:image2,
     title: "React Portofilo Website",
     intro: " Reactjs + Express project deployed on heroku. Using react-hook-form and sendgrid to handle email",
-    link: "https://github.com/Jiang-zzz",
+    link: "https://github.com/Jiang-zzz/react-portfolio-website",
   },
 ];
 class Posts extends Component {
