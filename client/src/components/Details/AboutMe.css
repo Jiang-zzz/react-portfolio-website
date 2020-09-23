@@ -1,0 +1,10 @@
+.social-links{
+    /* display: grid; */
+	align-content: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+ a:hover{
+    color: gold;
+}
