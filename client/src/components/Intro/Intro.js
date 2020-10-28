@@ -1,6 +1,6 @@
 import React from "react";
 import "../default.css";
-import NavBar from "./NavBar/NavBar";
+import NavBar from "./NavBar";
 import ThemeDots from "./ThemeDots";
 import Preview from "./Preview"
 import avatar from "../../images/avatar1.jpg";
