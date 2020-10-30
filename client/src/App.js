@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter} from "react-router-dom";
-import Intro from "./components/Intro/Intro";
+import Intro from "./components/Intro";
 import Details from "./components/Details/Details";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
