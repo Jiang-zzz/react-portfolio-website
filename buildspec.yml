@@ -8,9 +8,9 @@ phases:
         - apt install -y nodejs
     prebuild:
       commands:
-        - echo install dependences ...
-        - npm install --prefix client
+        - echo install server dependences ...
+        - npm install
     build:
       commands:
-        - echo building ...
-        - npm run build --prefix client
+        - echo install client dependencies and build static files
+        - npm install --prefix client && npm run build --prefix client
