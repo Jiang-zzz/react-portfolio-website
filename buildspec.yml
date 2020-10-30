@@ -10,7 +10,6 @@ phases:
       commands:
         - echo install dependences ...
         - npm install --prefix client
-        - npm install
     build:
       commands:
         - echo building ...
