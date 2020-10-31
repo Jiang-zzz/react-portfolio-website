@@ -14,10 +14,12 @@ phases:
       commands:
         - echo install client dependencies and build static files
         - npm install --prefix client && npm run build --prefix client
+        - echo showing path && pwd
+        - echo showing files && ls
         
 # Include only the files required for your application to run.
 artifacts:
   files:
     - "**/*"
-  base-directory: ./client/build
+  base-directory: /client/build
 
